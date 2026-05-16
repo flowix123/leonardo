@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Леонардо да Вінчі</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">L·D·V</a>
+  <ul class="nav-links">
+    <li><a href="#home">Головна</a></li>
+    <li><a href="#biography">Біографія</a></li>
+    <li><a href="#works">Твори</a></li>
+    <li><a href="#inventions">Винаходи</a></li>
+    <li><a href="#quotes">Цитати</a></li>
+  </ul>
+  <div class="nav-ornament">✦</div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div id="canvas-container"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">✦ &nbsp; Геній Ренесансу &nbsp; ✦</p>
+    <h1 class="hero-title">Леонардо<br>да Вінчі</h1>
+    <p class="hero-subtitle">Художник · Вчений · Винахідник · Філософ</p>
+    <p class="hero-dates">1452 — 1519</p>
+    <div class="hero-divider"></div>
+    <p class="hero-desc">Людина, чий розум охоплював цілі всесвіти — від зірок до серця людини, від пензля до крила машини.</p>
+  </div>
+
+  <div class="scroll-hint">
+    <span>↓</span>
+    ПРОКРУТИ
+  </div>
+</section>
+
+<!-- BIOGRAPHY -->
+<section id="biography">
+  <div class="section-inner">
+    <p class="section-label fade-in">✦ &nbsp; Біографія</p>
+    <h2 class="section-title fade-in">Життя Генія</h2>
+    <div class="gold-rule fade-in"></div>
+
+    <div class="bio-grid">
+      <div class="bio-text fade-in">
+        <p>Леонардо да Вінчі народився 15 квітня 1452 року в невеликому тосканському містечку Вінчі, поблизу Флоренції. Позашлюбний син нотаріуса Піеро да Вінчі та селянки Катерини, він виріс у будинку діда та дядька, де пробудилася його невгамовна цікавість до природи.</p>
+        <p>У 1466 році він став учнем знаменитого флорентійського майстра Андреа дель Верроккйо. Саме там молодий Леонардо осягнув мистецтво живопису, скульптури та інженерної справи — три дисципліни, які він незабаром підняв на безпрецедентну висоту.</p>
+        <p>Протягом усього свого довгого життя він служив при дворах Мілана, Флоренції, Риму та, нарешті, Франції, де й помер 2 травня 1519 року на руках у короля Франциска I.</p>
+        <p>Після себе він залишив більше 7000 сторінок нотаток і малюнків — унікальний інтелектуальний архів людства.</p>
+      </div>
+
+      <div class="bio-facts fade-in">
+        <div class="fact-card">
+          <div class="fact-label">Дата народження</div>
+          <div class="fact-value">15 квітня 1452 р., Вінчі, Тоскана</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-label">Дата смерті</div>
+          <div class="fact-value">2 травня 1519 р., Амбуаз, Франція</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-label">Покровителі</div>
+          <div class="fact-value">Лодовіко Сфорца · Медічі · Франциск I</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-label">Сфери діяльності</div>
+          <div class="fact-value">Живопис · Архітектура · Анатомія · Інженерія · Ботаніка · Музика</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-label">Характерна риса</div>
+          <div class="fact-value">Писав дзеркальним почерком правою до лівої руки</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section id="works">
+  <div class="section-inner">
+    <p class="section-label fade-in">✦ &nbsp; Шедеври</p>
+    <h2 class="section-title fade-in">Великі Твори</h2>
+    <div class="gold-rule fade-in"></div>
+
+    <div class="works-grid">
+
+      <div class="work-card fade-in">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/402px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Мона Ліза">
+        <div class="work-overlay">
+          <div class="work-title">Мона Ліза</div>
+          <div class="work-year">1503–1519 · Лувр, Париж</div>
+        </div>
+      </div>
+
+      <div class="work-card fade-in" style="transition-delay:.1s">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/800px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg" alt="Таємна Вечеря">
+        <div class="work-overlay">
+          <div class="work-title">Таємна Вечеря</div>
+          <div class="work-year">1495–1498 · Мілан</div>
+        </div>
+      </div>
+
+      <div class="work-card fade-in" style="transition-delay:.2s">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Leonardo_da_Vinci_-_Virgin_of_the_Rocks_%28Louvre%29.jpg/400px-Leonardo_da_Vinci_-_Virgin_of_the_Rocks_%28Louvre%29.jpg" alt="Мадонна в скелях">
+        <div class="work-overlay">
+          <div class="work-title">Мадонна в скелях</div>
+          <div class="work-year">1483–1486 · Лувр, Париж</div>
+        </div>
+      </div>
+
+      <div class="work-card fade-in" style="transition-delay:.3s">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/400px-Da_Vinci_Vitruve_Luc_Viatour.jpg" alt="Вітрувіанська людина">
+        <div class="work-overlay">
+          <div class="work-title">Вітрувіанська людина</div>
+          <div class="work-year">бл. 1490 · Венеція</div>
+        </div>
+      </div>
+
+      <div class="work-card fade-in" style="transition-delay:.4s">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Leonardo_da_Vinci_-_Annunciazione.jpg/800px-Leonardo_da_Vinci_-_Annunciazione.jpg" alt="Благовіщення">
+        <div class="work-overlay">
+          <div class="work-title">Благовіщення</div>
+          <div class="work-year">1472–1475 · Флоренція</div>
+        </div>
+      </div>
+
+      <div class="work-card fade-in" style="transition-delay:.5s">
+        <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/400px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg" alt="Дама з горностаєм">
+        <div class="work-overlay">
+          <div class="work-title">Дама з горностаєм</div>
+          <div class="work-year">1489–1490 · Краків</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INVENTIONS -->
+<section id="inventions">
+  <div class="section-inner">
+    <p class="section-label fade-in">✦ &nbsp; Інженерія</p>
+    <h2 class="section-title fade-in">Геніальні Винаходи</h2>
+    <div class="gold-rule fade-in"></div>
+
+    <div class="inventions-list">
+      <div class="invention-item fade-in">
+        <div class="invention-icon">✈️</div>
+        <div>
+          <div class="invention-name">Орнітоптер</div>
+          <div class="invention-desc">Літальний апарат з крилами, що б'ються, натхненний польотом птахів. Леонардо вивчав анатомію крил і повітряні потоки з невероятною точністю.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.1s">
+        <div class="invention-icon">🪂</div>
+        <div>
+          <div class="invention-name">Парашут</div>
+          <div class="invention-desc">Конусоподібна конструкція із полотна і дерева — перший у світі проект пристрою для безпечного падіння з висоти.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.15s">
+        <div class="invention-icon">🚗</div>
+        <div>
+          <div class="invention-name">Самохідний візок</div>
+          <div class="invention-desc">Механізований пристрій, що рухається пружинами — попередник сучасного автомобіля, збудований майже за 500 років до його появи.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.2s">
+        <div class="invention-icon">🔭</div>
+        <div>
+          <div class="invention-name">Геліоцентричні ескізи</div>
+          <div class="invention-desc">Замальовки руху Землі та Місяця, що передбачали відкриття Коперника і Галілея. Леонардо підозрював, що Земля — не центр Всесвіту.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.25s">
+        <div class="invention-icon">⚙️</div>
+        <div>
+          <div class="invention-name">Шарикопідшипник</div>
+          <div class="invention-desc">Конструкція кульок між двома пластинами для зменшення тертя — принцип, покладений в основу сучасної механіки.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.3s">
+        <div class="invention-icon">🌀</div>
+        <div>
+          <div class="invention-name">Гвинтокрил</div>
+          <div class="invention-desc">Спіральний повітряний гвинт — концепція вертольота. Конструкція обертового крила, що спирається на властивості повітря як рідини.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.35s">
+        <div class="invention-icon">🫀</div>
+        <div>
+          <div class="invention-name">Анатомічні атласи</div>
+          <div class="invention-desc">Понад 240 детальних малюнків людського тіла, включно з серцем, мозком та судинами — найточніші зображення до появи фотографії.</div>
+        </div>
+      </div>
+      <div class="invention-item fade-in" style="transition-delay:.4s">
+        <div class="invention-icon">🌊</div>
+        <div>
+          <div class="invention-name">Гідравлічний дзвін</div>
+          <div class="invention-desc">Підводний апарат для дихання і дослідження морського дна — прообраз водолазного костюма і акваланга.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTES -->
+<section id="quotes">
+  <div class="quotes-container">
+    <div class="quote-mark">"</div>
+    <p class="quote-text" id="quote-text"></p>
+    <p class="quote-attr">— Леонардо да Вінчі</p>
+    <div class="quote-arrows">
+      <button class="quote-btn" onclick="changeQuote(-1)">←</button>
+      <button class="quote-btn" onclick="changeQuote(1)">→</button>
+    </div>
+    <div class="quote-nav" id="quote-dots"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Leonardo da Vinci</div>
+  <div class="footer-ornament">✦ ✦ ✦</div>
+  <p class="footer-text">1452 — 1519 &nbsp;·&nbsp; Vinci, Toscana &nbsp;·&nbsp; "Arte e Scienza"</p>
+  <p class="footer-text" style="margin-top:.5rem; font-size:.75rem; opacity:.5">Навчальний проект · Інформатика</p>
+</footer>
+
+<script>
+/* ═══════════════════════════════════════
+   3D SCENE — Vitruvian-style rotating torus knot
+   representing Leonardo's love of geometry
+═══════════════════════════════════════ */
+(function() {
+  const container = document.getElementById('canvas-container');
+  const W = window.innerWidth, H = window.innerHeight;
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setSize(W, H);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  container.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(55, W / H, 0.1, 100);
+  camera.position.set(0, 0, 5);
+
+  // Golden torus knot — echoing Renaissance geometry studies
+  const geo = new THREE.TorusKnotGeometry(1.4, 0.38, 200, 32, 3, 5);
+  const mat = new THREE.MeshStandardMaterial({
+    color: 0x8b6020,
+    metalness: 0.9,
+    roughness: 0.25,
+    emissive: 0x3a2800,
+    emissiveIntensity: 0.3,
+  });
+  const knot = new THREE.Mesh(geo, mat);
+  scene.add(knot);
+
+  // Wireframe overlay
+  const wireMat = new THREE.MeshBasicMaterial({
+    color: 0xc9a84c,
+    wireframe: true,
+    opacity: 0.08,
+    transparent: true,
+  });
+  const wire = new THREE.Mesh(geo, wireMat);
+  scene.add(wire);
+
+  // Particle field — scattered notebooks
+  const particles = new THREE.BufferGeometry();
+  const count = 600;
+  const pos = new Float32Array(count * 3);
+  for (let i = 0; i < count * 3; i++) pos[i] = (Math.random() - 0.5) * 14;
+  particles.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const partMat = new THREE.PointsMaterial({
+    color: 0xc9a84c,
+    size: 0.025,
+    transparent: true,
+    opacity: 0.5,
+  });
+  scene.add(new THREE.Points(particles, partMat));
+
+  // Lights
+  scene.add(new THREE.AmbientLight(0x1a1000, 2));
+  const key = new THREE.PointLight(0xc9a84c, 4, 12);
+  key.position.set(3, 3, 3);
+  scene.add(key);
+  const fill = new THREE.PointLight(0x3d2b1f, 2, 10);
+  fill.position.set(-3, -2, 2);
+  scene.add(fill);
+
+  let mouseX = 0, mouseY = 0;
+  document.addEventListener('mousemove', e => {
+    mouseX = (e.clientX / W - 0.5) * 0.6;
+    mouseY = (e.clientY / H - 0.5) * 0.6;
+  });
+
+  let t = 0;
+  function animate() {
+    requestAnimationFrame(animate);
+    t += 0.004;
+    knot.rotation.x += (mouseY - knot.rotation.x) * 0.04 + 0.003;
+    knot.rotation.y += (mouseX - knot.rotation.y) * 0.04 + 0.005;
+    wire.rotation.copy(knot.rotation);
+    key.position.x = Math.sin(t) * 4;
+    key.position.z = Math.cos(t) * 4;
+    renderer.render(scene, camera);
+  }
+  animate();
+
+  window.addEventListener('resize', () => {
+    const w = window.innerWidth, h = window.innerHeight;
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+  });
+})();
+
+/* ═══════════════════════════════════════
+   SCROLL FADE-IN
+═══════════════════════════════════════ */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+
+/* ═══════════════════════════════════════
+   QUOTE CAROUSEL
+═══════════════════════════════════════ */
+const quotes = [
+  "Мистецтво ніколи не буває завершеним — його можна лише покинути.",
+  "Знання без практики — марнотратство; практика без знань — небезпека.",
+  "Вчись у природи, бо саме там живе майбутнє.",
+  "Той, хто не сумнівається, мало знає.",
+  "Вода — рушійна сила природи.",
+  "Всі наші знання починаються з почуттів.",
+  "Людина і справді є царем тварин, бо її жорстокість перевершує їхню."
+];
+
+let qi = 0;
+const qText = document.getElementById('quote-text');
+const dotsEl = document.getElementById('quote-dots');
+
+quotes.forEach((_, i) => {
+  const d = document.createElement('button');
+  d.className = 'quote-dot' + (i === 0 ? ' active' : '');
+  d.onclick = () => setQuote(i);
+  dotsEl.appendChild(d);
+});
+
+function setQuote(i) {
+  qi = (i + quotes.length) % quotes.length;
+  qText.style.opacity = 0;
+  setTimeout(() => {
+    qText.textContent = quotes[qi];
+    qText.style.opacity = 1;
+  }, 300);
+  document.querySelectorAll('.quote-dot').forEach((d, j) => {
+    d.classList.toggle('active', j === qi);
+  });
+}
+
+function changeQuote(dir) { setQuote(qi + dir); }
+
+qText.style.transition = 'opacity .3s';
+qText.textContent = quotes[0];
+
+setInterval(() => changeQuote(1), 7000);
+
+/* ═══════════════════════════════════════
+   ACTIVE NAV LINK
+═══════════════════════════════════════ */
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+const navObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => {
+        a.style.color = a.getAttribute('href') === '#' + e.target.id
+          ? 'var(--gold)' : '';
+      });
+    }
+  });
+}, { threshold: 0.5 });
+
+sections.forEach(s => navObs.observe(s));
+</script>
+</body>
+</html>
